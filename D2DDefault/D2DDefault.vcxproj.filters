@@ -1,0 +1,340 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Project ToolsVersion="4.0" xmlns="http://schemas.microsoft.com/developer/msbuild/2003">
+  <ItemGroup>
+    <Filter Include="01.GameEngine">
+      <UniqueIdentifier>{c100a78a-a700-47bf-8c2c-cfecef29931f}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="00.Header">
+      <UniqueIdentifier>{ce216134-c233-4b2a-8e95-ca8f453fbf28}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="03.Object">
+      <UniqueIdentifier>{d76fbe98-8ae4-44a9-8c1c-2f9e1a32fcde}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="02.Manager">
+      <UniqueIdentifier>{3ea10864-1aea-43cb-a212-6c7896cef0fb}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="02.Manager\CollisionManager">
+      <UniqueIdentifier>{b3e0682a-afec-421e-95f4-195ed5353b79}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="02.Manager\TimeManager">
+      <UniqueIdentifier>{495ffe7f-b69c-46ba-8b04-85b47f693095}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="04.Component">
+      <UniqueIdentifier>{1a9600de-8ce7-47df-b4ab-37c23bc7c8aa}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="04.Component\Collider">
+      <UniqueIdentifier>{72f79768-d5c0-41f5-a9f7-4fe2ea49b329}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="04.Component\Rigidbody">
+      <UniqueIdentifier>{85e8f370-5519-4330-b11b-f5ba5fbdaa18}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="05.Scene">
+      <UniqueIdentifier>{bbfadda9-30e5-4e74-9082-16db32307bba}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="02.Manager\SceneManager">
+      <UniqueIdentifier>{7d087cb1-d659-42c2-9d6f-020da45d6daa}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="02.Manager\KeyManager">
+      <UniqueIdentifier>{8e4c22f4-d86e-4f16-9f21-4cfa968e8d4f}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="05.Scene\SceneStart">
+      <UniqueIdentifier>{f6e5e42a-ecbd-4091-887e-5c0e14091d3d}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="01.GameEngine\Direct2D">
+      <UniqueIdentifier>{3ce25e57-7280-4898-89b3-1d149df7fb32}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="05.Scene\Stage01">
+      <UniqueIdentifier>{fe3f0fba-2d4a-4477-8108-03a35fffb417}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="09.Tool">
+      <UniqueIdentifier>{6840a6bc-b143-4be6-b248-9bef549f80a8}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="02.Manager\EventManager">
+      <UniqueIdentifier>{81806fe7-6aa4-4e8c-b1eb-128ea25f4ff0}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="02.Manager\MouseManager">
+      <UniqueIdentifier>{c2a546f6-190e-4778-bb5d-c89ce466e564}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="00.Header\Struct">
+      <UniqueIdentifier>{3ad4b17e-66ba-4024-9bea-f3be62126d9a}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="00.Header\NotUse">
+      <UniqueIdentifier>{d0c9cf0d-08b3-4f93-8656-c849b6676617}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="04.Component\Animator">
+      <UniqueIdentifier>{0c04fcf1-d376-45dd-bef9-8eb908299d94}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="01.GameEngine\Physics">
+      <UniqueIdentifier>{786bec6f-83e3-40fe-b844-46e6de758f3c}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="02.Manager\ResourceManager">
+      <UniqueIdentifier>{362602d9-605d-4dd9-9848-46a82304494b}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="03.Object\Physics">
+      <UniqueIdentifier>{1ce6f9a6-6dab-4425-ac5c-251cd128a028}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="03.Object\Physics\Circle">
+      <UniqueIdentifier>{905d6ec7-8097-443e-8456-d40faff2212f}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="03.Object\Physics\Convex">
+      <UniqueIdentifier>{d72d26ca-e061-4039-a2ae-35011555f086}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="03.Object\Physics\Info">
+      <UniqueIdentifier>{88f3204d-97d7-47a9-8d76-adf24e02dbbf}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="03.Object\Physics\Square">
+      <UniqueIdentifier>{864d650c-de8f-4089-aa44-eb3afca324ff}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="03.Object\Ani">
+      <UniqueIdentifier>{1a973c27-f71e-43ef-9f00-3c4551eb1cf5}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="03.Object\Ani\Background">
+      <UniqueIdentifier>{e128c848-9df6-40fe-a737-c2792da79459}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="03.Object\Ani\Player">
+      <UniqueIdentifier>{e27a4252-2c9a-4cea-a631-ba28f43dc34e}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="03.Object\Ani\Tree">
+      <UniqueIdentifier>{6e7a7646-baa7-468e-ae0c-6af92a8d7e51}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="03.Object\Physics\PocketBall">
+      <UniqueIdentifier>{0cf85f8e-889b-4c14-9829-87f84aad9675}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="03.Object\Physics\PocketBall\Table">
+      <UniqueIdentifier>{740809b7-8b3c-4fd7-9f8d-bc55d12a7732}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="03.Object\Physics\PocketBall\CueStick">
+      <UniqueIdentifier>{472b9f35-1787-4866-b4a4-10fac7a96451}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="03.Object\Physics\PocketBall\Hole">
+      <UniqueIdentifier>{18380069-b2a8-4e2f-9cd2-43437f0ffee6}</UniqueIdentifier>
+    </Filter>
+  </ItemGroup>
+  <ItemGroup>
+    <ClInclude Include="define.h">
+      <Filter>00.Header</Filter>
+    </ClInclude>
+    <ClInclude Include="GameEngine.h">
+      <Filter>01.GameEngine</Filter>
+    </ClInclude>
+    <ClInclude Include="pch.h">
+      <Filter>00.Header</Filter>
+    </ClInclude>
+    <ClInclude Include="Circle.h">
+      <Filter>03.Object\Physics\Circle</Filter>
+    </ClInclude>
+    <ClInclude Include="Object.h">
+      <Filter>03.Object</Filter>
+    </ClInclude>
+    <ClInclude Include="CollisionManager.h">
+      <Filter>02.Manager\CollisionManager</Filter>
+    </ClInclude>
+    <ClInclude Include="Collider.h">
+      <Filter>04.Component\Collider</Filter>
+    </ClInclude>
+    <ClInclude Include="TimeManager.h">
+      <Filter>02.Manager\TimeManager</Filter>
+    </ClInclude>
+    <ClInclude Include="KeyManager.h">
+      <Filter>02.Manager\KeyManager</Filter>
+    </ClInclude>
+    <ClInclude Include="SceneManager.h">
+      <Filter>02.Manager\SceneManager</Filter>
+    </ClInclude>
+    <ClInclude Include="Scene.h">
+      <Filter>05.Scene</Filter>
+    </ClInclude>
+    <ClInclude Include="SceneStart.h">
+      <Filter>05.Scene\SceneStart</Filter>
+    </ClInclude>
+    <ClInclude Include="DRD2DEngine.h">
+      <Filter>01.GameEngine\Direct2D</Filter>
+    </ClInclude>
+    <ClInclude Include="DRMacro.h">
+      <Filter>01.GameEngine\Direct2D</Filter>
+    </ClInclude>
+    <ClInclude Include="Square.h">
+      <Filter>03.Object\Physics\Square</Filter>
+    </ClInclude>
+    <ClInclude Include="Stage01.h">
+      <Filter>05.Scene\Stage01</Filter>
+    </ClInclude>
+    <ClInclude Include="function.h">
+      <Filter>09.Tool</Filter>
+    </ClInclude>
+    <ClInclude Include="Info01.h">
+      <Filter>03.Object\Physics\Info</Filter>
+    </ClInclude>
+    <ClInclude Include="EventManager.h">
+      <Filter>02.Manager\EventManager</Filter>
+    </ClInclude>
+    <ClInclude Include="Rigidbody.h">
+      <Filter>04.Component\Rigidbody</Filter>
+    </ClInclude>
+    <ClInclude Include="MouseManager.h">
+      <Filter>02.Manager\MouseManager</Filter>
+    </ClInclude>
+    <ClInclude Include="Convex.h">
+      <Filter>03.Object\Physics\Convex</Filter>
+    </ClInclude>
+    <ClInclude Include="framework.h">
+      <Filter>00.Header\NotUse</Filter>
+    </ClInclude>
+    <ClInclude Include="targetver.h">
+      <Filter>00.Header\NotUse</Filter>
+    </ClInclude>
+    <ClInclude Include="Vector3.h">
+      <Filter>00.Header\Struct</Filter>
+    </ClInclude>
+    <ClInclude Include="Vector2.h">
+      <Filter>00.Header\Struct</Filter>
+    </ClInclude>
+    <ClInclude Include="Simplex2D.h">
+      <Filter>00.Header\Struct</Filter>
+    </ClInclude>
+    <ClInclude Include="gjkSupport.h">
+      <Filter>09.Tool</Filter>
+    </ClInclude>
+    <ClInclude Include="CollisionData.h">
+      <Filter>00.Header\Struct</Filter>
+    </ClInclude>
+    <ClInclude Include="PhysicsEngine.h">
+      <Filter>01.GameEngine\Physics</Filter>
+    </ClInclude>
+    <ClInclude Include="Animator.h">
+      <Filter>04.Component\Animator</Filter>
+    </ClInclude>
+    <ClInclude Include="ResourceManager.h">
+      <Filter>02.Manager\ResourceManager</Filter>
+    </ClInclude>
+    <ClInclude Include="Player.h">
+      <Filter>03.Object\Ani\Player</Filter>
+    </ClInclude>
+    <ClInclude Include="Animation.h">
+      <Filter>04.Component\Animator</Filter>
+    </ClInclude>
+    <ClInclude Include="Background.h">
+      <Filter>03.Object\Ani\Background</Filter>
+    </ClInclude>
+    <ClInclude Include="Tree.h">
+      <Filter>03.Object\Ani\Tree</Filter>
+    </ClInclude>
+    <ClInclude Include="PocketBall.h">
+      <Filter>03.Object\Physics\PocketBall</Filter>
+    </ClInclude>
+    <ClInclude Include="WhiteBall.h">
+      <Filter>03.Object\Physics\PocketBall</Filter>
+    </ClInclude>
+    <ClInclude Include="RigidbodyData.h">
+      <Filter>00.Header\Struct</Filter>
+    </ClInclude>
+    <ClInclude Include="Hole.h">
+      <Filter>03.Object\Physics\PocketBall\Hole</Filter>
+    </ClInclude>
+    <ClInclude Include="Table.h">
+      <Filter>03.Object\Physics\PocketBall\Table</Filter>
+    </ClInclude>
+    <ClInclude Include="CueStick.h">
+      <Filter>03.Object\Physics\PocketBall\CueStick</Filter>
+    </ClInclude>
+  </ItemGroup>
+  <ItemGroup>
+    <ClCompile Include="GameEngine.cpp">
+      <Filter>01.GameEngine</Filter>
+    </ClCompile>
+    <ClCompile Include="main.cpp" />
+    <ClCompile Include="Circle.cpp">
+      <Filter>03.Object\Physics\Circle</Filter>
+    </ClCompile>
+    <ClCompile Include="Object.cpp">
+      <Filter>03.Object</Filter>
+    </ClCompile>
+    <ClCompile Include="CollisionManager.cpp">
+      <Filter>02.Manager\CollisionManager</Filter>
+    </ClCompile>
+    <ClCompile Include="Collider.cpp">
+      <Filter>04.Component\Collider</Filter>
+    </ClCompile>
+    <ClCompile Include="TimeManager.cpp">
+      <Filter>02.Manager\TimeManager</Filter>
+    </ClCompile>
+    <ClCompile Include="KeyManager.cpp">
+      <Filter>02.Manager\KeyManager</Filter>
+    </ClCompile>
+    <ClCompile Include="SceneManager.cpp">
+      <Filter>02.Manager\SceneManager</Filter>
+    </ClCompile>
+    <ClCompile Include="Scene.cpp">
+      <Filter>05.Scene</Filter>
+    </ClCompile>
+    <ClCompile Include="SceneStart.cpp">
+      <Filter>05.Scene\SceneStart</Filter>
+    </ClCompile>
+    <ClCompile Include="DRD2DEngine.cpp">
+      <Filter>01.GameEngine\Direct2D</Filter>
+    </ClCompile>
+    <ClCompile Include="Square.cpp">
+      <Filter>03.Object\Physics\Square</Filter>
+    </ClCompile>
+    <ClCompile Include="Stage01.cpp">
+      <Filter>05.Scene\Stage01</Filter>
+    </ClCompile>
+    <ClCompile Include="function.cpp">
+      <Filter>09.Tool</Filter>
+    </ClCompile>
+    <ClCompile Include="Info01.cpp">
+      <Filter>03.Object\Physics\Info</Filter>
+    </ClCompile>
+    <ClCompile Include="EventManager.cpp">
+      <Filter>02.Manager\EventManager</Filter>
+    </ClCompile>
+    <ClCompile Include="Rigidbody.cpp">
+      <Filter>04.Component\Rigidbody</Filter>
+    </ClCompile>
+    <ClCompile Include="MouseManager.cpp">
+      <Filter>02.Manager\MouseManager</Filter>
+    </ClCompile>
+    <ClCompile Include="Convex.cpp">
+      <Filter>03.Object\Physics\Convex</Filter>
+    </ClCompile>
+    <ClCompile Include="gjkSupport.cpp">
+      <Filter>09.Tool</Filter>
+    </ClCompile>
+    <ClCompile Include="PhysicsEngine.cpp">
+      <Filter>01.GameEngine\Physics</Filter>
+    </ClCompile>
+    <ClCompile Include="Animator.cpp">
+      <Filter>04.Component\Animator</Filter>
+    </ClCompile>
+    <ClCompile Include="ResourceManager.cpp">
+      <Filter>02.Manager\ResourceManager</Filter>
+    </ClCompile>
+    <ClCompile Include="Player.cpp">
+      <Filter>03.Object\Ani\Player</Filter>
+    </ClCompile>
+    <ClCompile Include="Animation.cpp">
+      <Filter>04.Component\Animator</Filter>
+    </ClCompile>
+    <ClCompile Include="Background.cpp">
+      <Filter>03.Object\Ani\Background</Filter>
+    </ClCompile>
+    <ClCompile Include="Tree.cpp">
+      <Filter>03.Object\Ani\Tree</Filter>
+    </ClCompile>
+    <ClCompile Include="PocketBall.cpp">
+      <Filter>03.Object\Physics\PocketBall</Filter>
+    </ClCompile>
+    <ClCompile Include="WhiteBall.cpp">
+      <Filter>03.Object\Physics\PocketBall</Filter>
+    </ClCompile>
+    <ClCompile Include="Hole.cpp">
+      <Filter>03.Object\Physics\PocketBall\Hole</Filter>
+    </ClCompile>
+    <ClCompile Include="Table.cpp">
+      <Filter>03.Object\Physics\PocketBall\Table</Filter>
+    </ClCompile>
+    <ClCompile Include="CueStick.cpp">
+      <Filter>03.Object\Physics\PocketBall\CueStick</Filter>
+    </ClCompile>
+  </ItemGroup>
+</Project>
